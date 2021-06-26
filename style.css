@@ -113,3 +113,23 @@ a:active {
   padding: 15px;
   box-sizing: border-box;
 }
+
+.pos-box {
+  width: 400px;
+  height: 400px;
+  border: 1px solid #333;
+  padding: 20px;
+  position: relative;
+}
+
+.pos-box h3 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.pos-box h4 {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
