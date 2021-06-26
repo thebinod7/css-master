@@ -1,0 +1,16 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.box-1 {
+  border-right: 5px red solid;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
