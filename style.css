@@ -6,8 +6,30 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #86ac41;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Click event */
+a:active {
+  color: red;
+}
+a:visited {
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
 .box-1 {
-  border: 5px #86ac41 solid;
+  border: 5px #34675c solid;
   padding: 20px;
   margin: 20px 0;
   word-spacing: 0.1em;
@@ -19,7 +41,19 @@ body {
   letter-spacing: 0.2em;
 }
 
-.container {
-  width: 80%;
-  margin: auto;
+.box-2 {
+  border: 3px dotted #34675c;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border: 1px solid #34675c;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.categories ul {
+  padding: 0;
+  list-style: none;
 }
