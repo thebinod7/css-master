@@ -120,6 +120,9 @@ a:active {
   border: 1px solid #333;
   padding: 20px;
   position: relative;
+  background-image: url('./images/light.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .pos-box h3 {
