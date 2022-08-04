@@ -1,0 +1,47 @@
+/* Static: default position of HTML  */
+
+/* Relative: position w.r.t it's default position  */
+.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+    width: 300px;
+}
+
+/*Fixed: fixed position w.r.t viewport */
+.fixed {
+    position: fixed;
+    width: 300px;
+    border: 3px solid #73AD21;
+    right: 15px;
+    bottom:  15px;
+}
+
+/* Absolute: position element w.r.t. parent div */
+.absolute_parent {
+    position: relative;
+    left: 40px;
+    top: 40px;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+/* Make parent div pos: relative */
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+/* Sticky: Toggles between relative and fixed. Remains at relative position until given offset position is met, then it "sticks" like fixed */
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 10px; /* Sticks at this position */
+    background-color: green;
+    border: 2px solid #4CAF50;
+}
