@@ -1,0 +1,28 @@
+/* block: Takes full width of the screen */
+.d_block {
+    display: block;
+    border: solid 1px red;
+    height: 50px;
+}
+
+/* inline: Takes minimal space and adjust in single line. Alos, height and width does not apply */
+.d_inline {
+    display: inline;
+    border: solid 1px red;
+}
+
+/* inline-block: Stays in same line but height and width apply */
+.d_inline_block {
+    display: inline-block;
+    border: solid 1px red;
+    height: 100px;
+    width: 100px;
+}
+
+/* Hides parent container and height/width does not apply */
+.d_contents {
+    display: contents;
+    border: solid 1px red;
+    height: 100px;
+    width: 100px;
+}
